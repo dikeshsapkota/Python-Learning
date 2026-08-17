@@ -25,8 +25,18 @@
         "stock": 3
     },
     {
-        "name": "comb",
-        "price": 1000.0,
-        "stock": 3
+        "name": "hero honda",
+        "price": 15000,
+        "stock": 5
+    },
+    {
+        "name": "pen",
+        "price": 10,
+        "stock": 100
+    },
+    {
+        "name": "blanket",
+        "price": 750,
+        "stock": 8
     }
 ]
