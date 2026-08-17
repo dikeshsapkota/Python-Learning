@@ -25,8 +25,9 @@ def discounted_price(price, quantity, discount):
 
 
 while True:
+    
     name = input("Enter product name: ")
-
+    
     if name == "":
         print("Invalid name. Please try again.")
     else:
@@ -34,8 +35,11 @@ while True:
 
 
 while True:
-    price = float(input("Enter product price: "))
-
+    try:
+        price = float(input("Enter product price: "))
+    except ValueError:
+        print("enter valid number")   
+        continue    
     if price <= 0:
         print("Invalid price. Please try again.")
     else:
@@ -43,8 +47,11 @@ while True:
 
 
 while True:
-    quantity = int(input("Enter quantity: "))
-
+    try:
+        quantity = int(input("Enter quantity: "))
+    except ValueError:
+        print("Invalid quantity. Please try again.")
+        continue
     if quantity <= 0:
         print("Invalid quantity. Please try again.")
     else:
@@ -52,8 +59,11 @@ while True:
 
 
 while True:
-    discount = float(input("Enter discount percentage: "))
-
+    try:
+        discount = float(input("Enter discount percentage: "))
+    except ValueError:
+        print("Invalid discount.")
+        continue 
     if discount < 0 or discount > 100:
         print("Invalid discount. Enter a value between 0 and 100.")
     else:
