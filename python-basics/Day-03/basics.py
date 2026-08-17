@@ -31,3 +31,19 @@ with open("product.json", "r") as file:
     loaded_product = json.load(file)
 
 print(loaded_product)
+
+#4 Modules (a .py file that contains reusable code such as functions, classes, or variables.)
+"""# calculator.py
+
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+"""
+"""
+in another main.py file 
+from calculator import add
+
+print(add(5, 3))
+"""

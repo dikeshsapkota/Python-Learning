@@ -24,3 +24,5 @@ with open("learning_log.txt","w")as file:
     file.write(f"Day 1 - Python fundamentals\n"
 f"Day 2 - Functions and validation\n"
 f"Day 3 - Exceptions, files and JSON")
+    
+    

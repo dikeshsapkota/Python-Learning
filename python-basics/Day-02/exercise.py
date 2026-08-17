@@ -13,15 +13,7 @@ Quantity: 2
 Total: Rs. 6000"""
 #2 — Add discount
 #3 — Validation
-def total_price(price, quantity):
-    return price * quantity
-
-
-def discounted_price(price, quantity, discount):
-    subtotal = total_price(price, quantity)
-    discount_amount = subtotal * (discount / 100)
-    final_price = subtotal - discount_amount
-    return final_price
+from calculations import total_price, discounted_price
 
 
 while True:
