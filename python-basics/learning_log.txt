@@ -1,3 +1,0 @@
-Day 1 - Python fundamentals
-Day 2 - Functions and validation
-Day 3 - Exceptions, files and JSON
