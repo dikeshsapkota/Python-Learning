@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Laptop",
+        "price": 80000,
+        "stock": 5
+    },
+    {
+        "name": "Mouse",
+        "price": 1500,
+        "stock": 10
+    },
+    {
+        "name": "Keyboard",
+        "price": 3000,
+        "stock": 7
+    },
+    {
+        "name": "Headphones",
+        "price": 5000,
+        "stock": 10
+    },
+    {
+        "name": "Monitor",
+        "price": 25000,
+        "stock": 3
+    },
+    {
+        "name": "hero honda",
+        "price": 15000,
+        "stock": 5
+    },
+    {
+        "name": "pen",
+        "price": 10,
+        "stock": 100
+    },
+    {
+        "name": "blanket",
+        "price": 750,
+        "stock": 8
+    }
+]
