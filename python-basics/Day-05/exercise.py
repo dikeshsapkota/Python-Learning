@@ -13,8 +13,12 @@ expensive_products =[product for product in products if product["price"]>2000]
 product_names=[product["name"] for product in products]
 #Dictionary Comprehensions
 product_prices={product["name"]: product["price"] for product in products}
-
+#exercise 2
+available_expensive_products=[product for product in products if(product["stock"]>0 and product["price"]>10000) ]
+#INVENTORY VALUE
+inventory_value={ product["name"]}
 print(in_stock_products)
 print(expensive_products)
 print(product_names)
 print(product_prices)
+print(available_expensive_products)
