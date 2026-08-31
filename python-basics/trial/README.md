@@ -16,3 +16,4 @@ Examples included:
 - `04_collections.py` - lists and dictionaries
 - `05_mini_calculator.py` - a small calculator using input and functions
 - `06_oop_theory.py` - class and object theory with a student example
+- `07_file_handling_theory.py` - writing and reading a simple text file
