@@ -15,3 +15,4 @@ Examples included:
 - `03_functions.py` - reusable functions with parameters and return values
 - `04_collections.py` - lists and dictionaries
 - `05_mini_calculator.py` - a small calculator using input and functions
+- `06_oop_theory.py` - class and object theory with a student example
