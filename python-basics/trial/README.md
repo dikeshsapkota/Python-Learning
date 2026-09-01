@@ -17,3 +17,4 @@ Examples included:
 - `05_mini_calculator.py` - a small calculator using input and functions
 - `06_oop_theory.py` - class and object theory with a student example
 - `07_file_handling_theory.py` - writing and reading a simple text file
+- `08_error_handling_theory.py` - try/except examples for common errors
