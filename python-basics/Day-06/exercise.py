@@ -7,5 +7,14 @@ products = [
 ]
 #map + filter
 available_products=list(map(lambda product:product["name"],
-                        filter(lambda product:product["stock"]>0,products)))
+                        filter(lambda product:product["stock"]>0 and product["price"]>5000,products)))
+
+#sort 
+sorted_by_price=sorted(
+    products,
+    key=lambda product: product["price"],
+    reverse=True
+)
+names=list(map(lambda product:product["name"],sorted_by_price))
 print(available_products)
+print(names)
