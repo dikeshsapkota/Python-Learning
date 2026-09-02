@@ -10,4 +10,9 @@ sorted_by_stock=sorted(
     key=lambda product: product["stock"],    
     reverse=True
 )
+prices=list( map(lambda product:product["price"],products))
+in_stock=list(filter(lambda product:product["stock"]>0,products))
+
 print(sorted_by_stock)    
+print(prices)
+print(in_stock)
