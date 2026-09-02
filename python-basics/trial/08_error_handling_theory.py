@@ -14,7 +14,7 @@ print(divide_numbers(10, 2))
 print(divide_numbers(10, 0))
 
 try:
-    user_age = int("twenty")
+    user_age = int("20")
     print(f"User age is {user_age}")
 except ValueError:
     print("Error: Please enter age as a number.")

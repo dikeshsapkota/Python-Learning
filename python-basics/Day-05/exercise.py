@@ -16,9 +16,13 @@ product_prices={product["name"]: product["price"] for product in products}
 #exercise 2
 available_expensive_products=[product for product in products if(product["stock"]>0 and product["price"]>10000) ]
 #INVENTORY VALUE
-inventory_value={ product["name"]}
+inventory_value={product["name"]:(product["stock"]* product["price"])  for product in products }
+#Discounted price
+discounted_price={product["name"]:(product["price"]- product["price"]*0.1)for product in products if product["stock"]>0}
 print(in_stock_products)
 print(expensive_products)
 print(product_names)
 print(product_prices)
 print(available_expensive_products)
+print(inventory_value)
+print(discounted_price)
